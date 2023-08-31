@@ -1,0 +1,5 @@
+- React + Vite: minimal setup for React (https://github.com/vitejs/)
+- Typescript: javascript types (https://www.typescriptlang.org/)
+- framer-motion: animations for React (https://www.framer.com/motion/)
+- React Three Fiber: 3D for React (https://docs.pmnd.rs/react-three-fiber/getting-started/introduction)
+- maath: math funcitons to animate smoothly the position, rotation or color changes (https://github.com/pmndrs/maath/blob/main/README.md)
