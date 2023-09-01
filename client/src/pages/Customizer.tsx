@@ -125,11 +125,13 @@ const Customizer = () => {
   };
 
   const readFile = (type: string) => {
-    reader(file).then((result) => {
-      const res = result as string | boolean;
-      handleDecals(type, res);
-      setActiveEditorTab("");
-    });
+    if (file) {
+      reader(file).then((result) => {
+        const res = result as string | boolean;
+        handleDecals(type, res);
+        setActiveEditorTab("");
+      });
+    }
   };
 
   return (
