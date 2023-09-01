@@ -5,7 +5,7 @@ type Props = {
   prompt: string;
   setPrompt: Dispatch<SetStateAction<string>>;
   generatingImg: boolean;
-  handleSubmit: () => {};
+  handleSubmit: (type: string) => any;
 };
 
 const AIPicker = ({

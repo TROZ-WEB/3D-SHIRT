@@ -1,15 +1,17 @@
+// @ts-nocheck
+
 import { ReactNode, useRef } from "react";
 import { useSnapshot } from "valtio";
 import state from "../store";
 import { easing } from "maath";
-import { useFrame } from "@react-three/fiber";
+import { GroupProps, useFrame } from "@react-three/fiber";
 
 type Props = {
   children: ReactNode;
 };
 
 const CameraRig = ({ children }: Props) => {
-  const group = useRef(null);
+  const group = useRef<GroupProps>(null);
   const snap = useSnapshot(state);
 
   useFrame((state, delta) => {

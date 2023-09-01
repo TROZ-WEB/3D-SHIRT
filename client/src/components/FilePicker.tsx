@@ -4,7 +4,7 @@ import CustomButton from "./CustomButton";
 type Props = {
   file: File | undefined;
   setFile: Dispatch<SetStateAction<File | undefined>>;
-  readFile: (type: string) => void;
+  readFile: (type: string) => any;
 };
 
 const FilePicker = ({ file, setFile, readFile }: Props) => {

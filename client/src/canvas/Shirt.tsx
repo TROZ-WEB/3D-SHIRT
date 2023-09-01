@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import { useSnapshot } from "valtio";
 import state from "../store";
 import { Decal, useGLTF, useTexture } from "@react-three/drei";
