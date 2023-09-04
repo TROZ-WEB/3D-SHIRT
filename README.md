@@ -2,7 +2,7 @@ Visit the live site here: https://3d-shirt-flame.vercel.app/
 
 # Project
 
-This app allows you to personalize a t-shirt rendered in 3D using the Three Fiber React library. You can change the color of the t-shirt, add a logo or a texture or even generate a logo or a texture with AI and apply it to the shirt.
+This app allows you to personalize a t-shirt rendered in 3D using the Three Fiber React library. You can change the color of the t-shirt, add a logo or a texture or even generate a logo or a texture with AI and apply it to the t-shirt.
 
 ## Technologies
 
